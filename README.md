@@ -6,13 +6,8 @@ Instructions
 
 The test scripts should be written in Java Eclipse Oxygen
 Add a jar for the Selenium standalone server
-Build Path Configure 
-Build Path 
-Java Build Path 
-Click the 'Libraries' tab on the top 
-Add External JARs
-Right click the project
-Run As Java Application 
+Build Path Configure >Build Path >Java Build Path >Click the 'Libraries' tab on the top >Add External JARs
+Right click the project >Run As Java Application 
 FireFox Browser should load the Frontier website
 
 Background/Approach 
