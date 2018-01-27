@@ -1,5 +1,39 @@
 # redventuresassignment
 
+RV Automation Assignment Leah Mooney
+
+Instructions
+
+The test scripts should be written in Java Eclipse Oxygen
+Add a jar for the Selenium standalone server
+>Build Path Configure 
+>Build Path 
+>Java Build Path 
+>Click the 'Libraries' tab on the top 
+>Add External JARs
+Right click the project
+>Run As Java Application 
+FireFox Browser should load the Frontier website
+
+Background/Approach 
+Over the past couple months I have become familiar with manual testing on video gateway devices; primarily running manual test scripts, entering product defects, familiarization with software development life cycle, agile/devops concepts, and test applications such as JIRA and ALM. As a result of an informal training program with Infosys/Comcast teams, I have decided to more formally pursue job opportunities in software test. During this time my exposure to automation testing, tooling and programming languages has been limited.
+
+Because this was my first time working with automation testing and writing test scripts, I've conducted a fair amount of research/self-study to get more comfortable with various processes. I used Java Eclipse Oxygen to write the test scripts and added the Selenium standalone server to run the tests. I used xpath to find exact locations on the website to then plug back in the test scripts.
+
+Even though I don't have a lot of experience with automation testing, I very much enjoyed working on this project and am eager to keep learning. Thank you for taking the time to review my assignment.
+
+Bonus
+
+For different browsers: 
+Chrome will use ChromeDriver 
+Safari will use SafariDriver 
+Internet Explorer will use InternetExplorerDriver
+
+Actual Errors 
+The only thing I found interesting was when letters were entered instead of numbers for the zip code, the user will not be given a message to enter a valid zip code. When the user leaves the box blank, a message does appear, "Address is required." When actual numbers are entered, the page redirects the user to the next page successfully.
+
+
+
 package automationtesting;
 
 public class FrontierTesting {
